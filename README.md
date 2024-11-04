@@ -24,3 +24,14 @@ Proposed learning2:
 3- Activation
 4- Avg. weights of similar outputs
 5- Use these weights -> step 3
+
+
+same neural network forward pass but instead of backprop, implement this
+
+make predictions by initializing weights randomly for the first time
+group batches (by grouping common outputs and inputs) - use decision tree to group into batches
+get the avg. weights for each group (or tree)
+use the avg. weights for next iteration
+optimize loss as usual
+With this I should be able to train a neural network (give a proper name).
+
